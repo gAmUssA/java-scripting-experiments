@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='webjars/bootstrap/3.0.0/css/bootstrap.min.css'>
+</head>
+<body>
+<div class="container">
+    <h1>{title}</h1>
+
+    <div class="panel panel-wa">
+        <div class="panel-heading">
+            <h3 class="panel-title">{title}</h3>
+        </div>
+        <div class="panel-body">
+            <div class="list-group">
+                {#sessions}
+                <a href="{link}" class="list-group-item">
+                    <h4 class="list-group-item-heading">{subject}</h4>
+                    <p class="list-group-item-text">{datetime} - {location}</p>
+                </a>
+                {/sessions}
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

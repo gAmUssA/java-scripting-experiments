@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dustjs template example</title>
+</head>
+<body>
+ <h1>{title}</h1>
+<ul>
+ {#names}
+  <li>{name}</li>{~n}
+ {/names}
+</ul>
+</body>
+</html>

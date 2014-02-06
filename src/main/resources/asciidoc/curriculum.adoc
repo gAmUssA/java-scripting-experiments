@@ -1,0 +1,152 @@
+== Units
+
+
+=== Unit 1
+
+* Prototype screens in Balsamiq:
+* Prototype screens in HTML (static pages, use media queries)
+
+
+=== Unit 2
+
+* Integrate Grunt with Idea.
+* Hello world: Grunt script.
+* Development environment setup (Hello World).
+* Hello world: plain JavaScript HTTP request to mock server.
+* Installing and configuring Angular (Yeoman, Bower). Integrate with Idea.
+* Hello world: Angular in Idea.
+* Angular: Home page + User profile page.
+
+
+=== Unit 3
+
+* Angular unit tests. Jasmine + angular-mocks.
+** Test models/controllers/routing/views (AngularJS data bindings).
+* Angular mocks ($http/$httpBackend).
+* Complete pages/routing:
+** Inventory page
+** Product details
+** Cart page
+
+NOTE: We provide: 2 pages, example of unit test for all AngularJS component (model/controller/view/router), full grunt automation.
+Students do: complete/mock all pages, create unit tests.
+
+
+=== Unit 4
+
+* App review. Highlight AJAX, code fragments, explain AJAX.
+* Explain JSON.
+* Replace mock requests with the real Java API.
+* Configuring JBoss.
+* Explain REST. http://spring.io/guides/gs/rest-hateoas[HATEOAS].
+* Create Java REST endpoints:
+** /bid
+** /cart
+** /login
+** /product
+** /user
+
+
+
+=== Unit 5
+
+* Introduction to modern real-time web (SSE, WebSockets).
+* Benefits of using WebSockets for the auction app.
+* Auction API with WebSockets:
+** Current price endpoint.
+** Bidding endpoint.
+
+
+=== Unit 6.
+
+* Asynchronous communication using messaging ().
+* Basic concept: point-to-point, pub/sub, acknowledgments.
+* Overview of JMS 2.0 API.
+* Configuring bidding engine: determines current price of the product. Bid - queue (MDB), latest bid - topic.
++
+
+[source]
+----
+   JBoss              Bidding Engine
+ ----------      -----------------------
+|Sender    | -> |Queue -> MDB           | <1>
+|Subscriber| <- |Topic <- Bidding Engine| <2>
+ ----------      -----------------------
+----
+<1> Sender sends user's bid.
+<2> Subscriber receives the latest price (may not be the same as the user's bid).
+<3> Subscriber propagates latest price to the client via WebSockets.
+
+* Load testing with JMeter.
+
+
+=== Unit 7
+
+* TDD != test-first
+* 
+* 
+
+
+== Unit 8
+
+*
+*
+*
+
+
+== Unit 9
+
+*
+*
+*
+
+
+== Features
+
+* Login feature (widget on the page)
+* Register feature
+* Add image slider (use standard component from whatever library)
+* Navigation bar:
+** Home
+* Add watcher functionality (as on ebay). Server will push messages (price/status/availability) to the registered watchers.
+* Make bids.
+* Price server. Expose price via REST API.
+* First example polling prices (HTTP AJAX requests). Eventually replaced with WebSockets data push.
+* *Search for products.*
+
+
+== Screens
+
+* Home page:
+** Login/register widgets
+** Advanced Search link
+
+* Search result page (reuse from Abeola as much as possible):
+** Advanced search form
+** Search results grid.
+
+* Product details:
+** Image gallery (like on ebay - small thumbnails + 1 large image).
+** Product details list/grid (minimum ).
+** Watch product (see feature description above).
+** Add to cart.
+
+* Cart page.
+* User profile page:
+** Real-time my watch list.
+** User info.
+
+
+== Tools
+
+* Grunt:
+** usemin plugin
+* Balsamiq
+
+
+== Candidates for research projects
+
+* Web Components (polymer?).
+* Apache Solr.
+* Creation of a detailed Product Details page.
+* Checkout page.

@@ -1,0 +1,7 @@
+<project>
+    <target name="test">
+        <script language="nashorn">
+            print("Hey! It's Nashorn!");
+        </script>
+    </target>
+</project>

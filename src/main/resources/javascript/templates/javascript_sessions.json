@@ -1,0 +1,53 @@
+{
+    "title": "JavaOne: JavaScript Sessions",
+    "sessions": [
+        {
+            "subject": "Nashorn: JavaScript on the JVM [CON7835]",
+            "link": "https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=7835",
+            "location": "Hilton - Yosemite B/C",
+            "datetime": "Monday, Sep 23, 11:30 AM - 12:30 PM "
+        },
+        {
+            "subject": "Nashorn: Java and JavaScript - Shaken, Not Stirred (not about James Bond :-( )[BOF5793]",
+            "link": "https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=5793",
+            "location": "Hilton - Yosemite B/C",
+            "datetime": "Monday, Sep 23, 6:30 PM - 7:15 PM"
+        },
+        {
+            "subject": "Teaching the Java Platform with Nashorn [BOF5225]",
+            "link": "https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=5225",
+            "location": "Hilton - Yosemite B/C",
+            "datetime": "Tuesday, Sep 24, 4:30 PM - 5:15 PM"
+        },
+        {
+            "subject": "The Curious Case of JavaScript on the JVM [CON2952]",
+            "link": "https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2952",
+            "location": "Hilton - Yosemite B/C",
+            "datetime": "Tuesday, Sep 24, 1:00 PM - 2:00 PM"
+        },
+        {
+            "subject": "Embedding JVM Scripting Languages [CON2585]",
+            "link": "https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2585",
+            "location": "Hilton - Yosemite B/C",
+            "datetime": "Tuesday, Sep 24, 3:00 PM - 4:00 PM"
+        },
+        {
+            "subject": "Modular JavaScript [CON2959]",
+            "link": "https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2959",
+            "location": "Hilton - Yosemite B/C",
+            "datetime": "Wednesday, Sep 25, 3:00 PM - 4:00 PM"
+        },
+        {
+            "subject": "Effective Use of HTML5 JavaScript for Java EE 7 Web Applications [BOF7838]",
+            "link": "https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=7838",
+            "location": "Parc 55 - Cyril Magnin II/III",
+            "datetime": "Monday, Sep 23, 4:30 PM - 5:15 PM"
+        },
+        {
+            "subject": "Script Bowl 2013: The Battle for Supremacy and Survival [CON2653]",
+            "link": "https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=2653",
+            "location": "Hilton - Imperial Ballroom B",
+            "datetime": "Wednesday, Sep 25, 4:30 PM - 5:30 PM"
+        }
+    ]
+}

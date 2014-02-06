@@ -1,0 +1,7 @@
+== Ideas for usage
+
+Run JS unit tests:
+
+* https://github.com/wgroeneveld/jasmine-junit-runner[Jasmine Junit Runner]
+* http://www.envjs.com/doc/guides#running-embed[EnvJS]
+** http://build-doctor.com/2010/12/08/javascript-bdd-jasmine/[Jasmine with EnvJS]
