@@ -6,7 +6,7 @@ Presented on:
 
 * https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=5793[JavaOne (October 2013)]
 * http://www.eventbrite.com/e/nyjavasig-nashorn-java-and-javascript-shaken-not-stirred-tickets-10216807747[NY JavaSIG (January 2014)]
-* www.meetup.com/NJFlex/events/162830932/[PrincetonJUG (February 2014)]
+* http://www.meetup.com/NJFlex/events/162830932/[PrincetonJUG (February 2014)]
 
 Content:
 
@@ -14,9 +14,13 @@ Content:
 * http://next.javaheadbrain.com/slidedecks/java_javascript_shaken_not_stirred/NYJAVASIG_2014_Nashorn_v4.pdf[PDF slides (latest version)]
 * https://www.youtube.com/watch?v=Othz7Ny6bq0[Presentation (*1080p* video, slides and voice-over)]
 
-=== Used technologies ===
+=== Used technologies 
 
-_TODO_
+* http://hsqldb.org/[HSQLDB]
+* http://linkedin.github.io/dustjs/[Dust.JS (LinkedIn fork)]
+* https://github.com/asciidoctor/asciidoctor.js[Asciidoctor.JS]
+* https://jdk8.java.net/download.html[JDK8]
+* http://download.java.net/jdk8/docs/technotes/guides/scripting/prog_guide/api.html[Scripting API for Java platform]
 
 === How to build
 
