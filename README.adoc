@@ -1,4 +1,29 @@
+= Nashorn: Java & JavaScript. Shaken, Not Stirred
+Viktor Gamov <viktor.gamov@faratasystems.com>, © 2014 Farata Systems LLC.
+2014-03-24
+:revdate: 2014-03-24 22:53:04 -0600
+:linkattrs:
+:ast: &ast;
+:y: &#10003;
+:n: &#10008;
+:y: icon:check-sign[role="green"]
+:n: icon:check-minus[role="red"]
+:c: icon:file-text-alt[role="blue"]
+:toc: 
+:toc-placement!:
+:toclevels: 3
+:idprefix:
+:idseparator: -
+:sectanchors:
+:icons: font
+:source-highlighter: highlight.js
+:highlightjs-theme: idea
+:experimental:
+
+
 == Nashorn: Java & JavaScript. Shaken, Not Stirred
+
+toc::[]
 
 Example application demonstrates usage of Scripting API for Java platform (http://www.jcp.org/en/jsr/detail?id=223[JSR-223]) with Nashorn JavaScript engine.
 
@@ -7,6 +32,7 @@ Presented on:
 * https://oracleus.activeevents.com/2013/connect/sessionDetail.ww?SESSION_ID=5793[JavaOne (October 2013)]
 * http://www.eventbrite.com/e/nyjavasig-nashorn-java-and-javascript-shaken-not-stirred-tickets-10216807747[NY JavaSIG (January 2014)]
 * http://www.meetup.com/NJFlex/events/162830932/[PrincetonJUG (February 2014)]
+* http://www.meetup.com/nycjava/events/165981862/[The New York City Java Meetup Group (March 2014)] (http://next.javaheadbrain.com/slidedecks/java_javascript_shaken_not_stirred/NYJUG_2014_Nashorn_v5.pdf[slides])
 
 Content:
 
@@ -50,5 +76,13 @@ Content:
 image::shot.jpg[]
 
 
+=== Additional Reading
 
+* https://avatar.java.net/[Project Avatar]
+* https://avatar.java.net/[Avatar.js]
+* https://github.com/vert-x/mod-lang-nashorn[vert.x Nashorn module]
+* http://docs.oracle.com/javase/8/docs/technotes/guides/scripting/nashorn/api.html#sthref17[Nashorn API]
 
+=== Problems, questions, feedback
+
+Welcome to https://github.com/gAmUssA/java-scripting-experiments/issues[issue tracker].
