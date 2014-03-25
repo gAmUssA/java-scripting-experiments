@@ -43,7 +43,7 @@ public abstract class AbstractJSFrameworkContext implements JSFrameworkContext {
         readAll(builder, reader);
     }
 
-    protected String textFromFile(String filename) throws IOException {
+    protected String getText(String filename) throws IOException {
         URL url = cl.getResource(filename);
         String result = "";
         if (url != null) {

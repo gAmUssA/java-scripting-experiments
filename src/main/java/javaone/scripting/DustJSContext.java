@@ -22,8 +22,8 @@ public class DustJSContext extends AbstractJSFrameworkContext {
             createDustJSScriptContext();
         }
         final Bindings bindings = dustjsScriptContext.getBindings(ScriptContext.ENGINE_SCOPE);
-        String template = textFromFile("javascript/templates/" + fileName + ".dust");
-        String model = textFromFile("javascript/templates/" + fileName + ".json");
+        String template = getText("javascript/templates/" + fileName + ".dust");
+        String model = getText("javascript/templates/" + fileName + ".json");
 
         bindings.put("myTemplate", template);
         bindings.put("myModel", model);
@@ -31,10 +31,11 @@ public class DustJSContext extends AbstractJSFrameworkContext {
         StringWriter output = new StringWriter();
         dustjsScriptContext.setWriter(output);
         engine.eval(
-                "var compiled = dust.compile(myTemplate, templateName);" +
+            "var compiled = dust.compile(myTemplate, templateName);" +
                 "dust.loadSource(compiled);" +
                 "dust.render(templateName,JSON.parse(myModel), function(err, out){print(out);})",
-                dustjsScriptContext);
+            dustjsScriptContext
+        );
 
         return output.toString();
     }
@@ -44,7 +45,7 @@ public class DustJSContext extends AbstractJSFrameworkContext {
         Bindings bindings = engine.createBindings();
         dustjsScriptContext.setBindings(bindings, ScriptContext.ENGINE_SCOPE);
         try {
-            engine.eval(textFromFile("javascript/lib/dust-full-2.0.0.js"), dustjsScriptContext);
+            engine.eval(getText("javascript/lib/dust-full-2.0.0.js"), dustjsScriptContext);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
