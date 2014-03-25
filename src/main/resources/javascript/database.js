@@ -18,11 +18,11 @@ try {
     Class.forName('org.hsqldb.jdbcDriver').newInstance();
     var conn = DriverManager.getConnection('jdbc:hsqldb:hsql://localhost:9002/cleardb', 'sa', '');
     for (var warn = conn.getWarnings(); warn != null; warn = warn.getNextWarning()) {
-        var log = ("SQL Warning:\n " + messageTemplate.supplant({state: warn.getSQLState(), message: warn.getMessage(), error: warn.getErrorCode()}));
+        var log = ("SQL Warning:\n State: ${warn.getSQLState()}\n Message: ${warn.getMessage()}\n Error: {warn.getErrorCode()}");
         print(log);
     }
     var myQuery = "select * from company c;";
-    var myQuery = "select * from company_associate c;";
+    //var myQuery = "select * from company_associate c;";
     //var myQuery = "select ca.ASSOCIATE, c.COMPANY from company c, company_associate ca where c.ID = ca.company_id";
     print("My query " + myQuery + "\n---------------");
     var rs = conn.createStatement().executeQuery(myQuery);
