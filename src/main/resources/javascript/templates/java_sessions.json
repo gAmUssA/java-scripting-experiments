@@ -1,0 +1,35 @@
+{
+    "title": "Java Innovations - The Latest Trends in Java Technology",
+    "sessions": [
+        {
+            "subject": "Evolving Java",
+            "link": "https://qconnewyork.com/presentation/evolving-java",
+            "location": "Grand Ballroom - Salon D",
+            "datetime": "Thursday, 10:40am - 11:30am"
+        },
+        {
+            "subject": "Java SE 8 for Tablets, Pis, and Legos",
+            "link": "https://qconnewyork.com/presentation/java-se-8-tablets-pis-and-legos",
+            "location": "Hilton - Yosemite B/C",
+            "datetime": "Thursday, 11:55am - 12:45pm"
+        },
+        {
+            "subject": "Spring 4 on Java 8",
+            "link": "https://qconnewyork.com/presentation/spring-4-java-8",
+            "location": "Grand Ballroom - Salon D",
+            "datetime": "Thursday, 1:45pm - 2:35pm"
+        },
+        {
+            "subject": "Are your G1GC Logs Speaking to you?",
+            "link": "https://qconnewyork.com/presentation/are-your-g1gc-logs-speaking-you",
+            "location": "Grand Ballroom - Salon D",
+            "datetime": "Thursday, 4:15pm - 5:05pm"
+        },
+        {
+            "subject": "Nashorn - Native JavaScript support in Java 8",
+            "link": "https://qconnewyork.com/presentation/nashorn-native-javascript-support-java-8",
+            "location": "Grand Ballroom - Salon D",
+            "datetime": "Thursday, 5:30pm - 6:20pm"
+        }
+    ]
+}
