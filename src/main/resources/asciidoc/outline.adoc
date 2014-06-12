@@ -1,0 +1,115 @@
+= AngularJS for Java Developers
+© 2014 Farata Systems LLC. <training@faratasystems.com>
+:icons: font
+:last-update-label!:
+:experimental:
+
+////
+Questions:
+
+* Should we require Java 8 installed on the attendees laptops? Will we host Java back-end on the instructor's machine? Will we use apiary.io instead of self-written Java back-end?
+////
+
+
+== icon:book[] Summary
+
+In this course we assume the attendees know nothing about AngularJS, so we will cover it from very basics to the advanced scenarios. We will also briefly revisit the most confusing JavaScript topics like closures, constructor functions and prototypal inheritance. During the course we will develop a single-page web application starting from "Hello World" and finishing with production-ready real-world application. We'll leave no magic behind AngularJS two-way data binding and learn how AngularJS works under the hood. We'll also master the tools that boost productivity in JavaScript environment. So, hopefully next time you need to develop a web app, you'll pick AngularJS and deliver incomparably better product than you can do with plain JavaScript and jQuery.
+
+
+== icon:check[] Prerequisites
+
+The workshop includes up to 40% of the time hands-on exercises, so the attendees use _their own_ laptops.
+
+.Required knowledge
+. Familiarity with JavaScript basics.
+. HTML, CSS basics.
+
+.Required software
+. https://www.jetbrains.com/webstorm/[WebStorm 8] (free trial version works perfectly fine)
+. https://www.google.com/chrome[Google Chrome Browser]
+. http://nodejs.org/[Node.js]
+. https://www.npmjs.org/[npm]
+
+NOTE: The installation instructions will be provided to the registered attendees.
+
+
+== icon:time[] Timeline
+
+[cols="^.^1s,12,^.^2", options="header,footer"]
+|===
+|# |Topic |Time
+
+|1
+|*Overview of Selected JavaScript Constructs* +
+Dynamic nature of JavaScript, closures, constructor functions, prototypal inheritance.
+|30 min
+
+|2
+|*AngularJS Basics* +
+AngularJS modules, application life-cycle, controllers, directives, filters, expressions, data binding.
+|40 min
+
+|3
+|*icon:laptop[role="red"] Hands-on: AngularJS Online Auction App* +
+The attendees receive the boilerplate of Online Auction web application (project files layout, designed HTML views, configured 3rd-party libraries, etc.). They need to develop controllers, services, models, fetch data from static JSON files and display received data on the UI using data binding.
+|30 min
+
+|4
+|*AngularJS Best Practices* +
+Promises, revisiting routing, advanced controllers, UI decomposition using AngularJS directives.
+|20 min
+
+| ^|*BREAK* |*15 min*
+
+|5
+|*Becoming productive with AngularJS. Tools.* +
+Node.js as the runtime for all development tools, managing tools with npm, scaffolding with Yeoman, managing 3rd-party libraries with Bower, Grunt task runner as an ultimate automation tool for all development processes. Learning most commonly used Grunt plugins.
+|45 min
+
+|6
+|*icon:laptop[role="red"] Hands-on: Mastering Tools* +
+The attendees receive new version of Online Auction app based on the generated Yeoman template. They need to add 3rd-party libraries and configure additional Grunt tasks and targets to enable http://lesscss.org[LESS] support for the project. +
+They also need to set up routing, decompose UI using directives, hook up to the routing event to update page title.
+|30 min
+
+|7
+|*AngularJS Dependency Injection* +
+Covers DI in all its flavours, strategies to inject services, the differences between available registration methods and suitable use cases for each of them.
+|30 min
+
+| ^|*icon:food[] LUNCH BREAK* |*60 min*
+
+|8
+|*AngularJS Scopes In Depth* +
+Will learn how two-way data binding works, Web browser's event loop vs AngularJS Event Loop, digest loop, when to use `$apply()`, sneak peek of zones in AngularJS 2.0.
+|40 min
+
+|9
+|*AngularJS Directives* +
+Decomposing UI with AngularJS directives, creating reusable components, isolated scope, wrapping 3rd-party UI components (e.g. jQueryUI calendar) to enable two-way data binding.
+|40 min
+
+|10
+|*icon:laptop[role="red"] Hands-on: Creating Reusable Component* +
+The attendees receive new version of Online Auction app with all the features developed in the previous hands-on. They need to create reusable component out of Twitter Bootstrap's carousel using AngularJS directives.
+|40 min
+
+| ^|*BREAK* |*15 min*
+
+|11
+|*AngularJS Forms* +
+Leveraging built-in form validation features, creating custom validators.
+|30 min
+
+|12
+|*Communication with RESTful Server* +
+Communicating with a backend via RESTful API, CORS, `$http`, `$resource`, `Restangular`.
+|35 min
+
+|13
+|*icon:laptop[role="red"] Hands-on: Communicating with Java Backend* +
+The attendees receive Java application exposing Online Auction data via RESTful API, fully implemented version of Online Auction app is provided as well. They need to replace AngularJS `$http` service's calls to static JSON files with custom services which get the data from the Java backend using `Restangular`.
+|40 min
+
+2+<|*Total* ^|*540 min*
+|===
