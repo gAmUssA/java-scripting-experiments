@@ -2,13 +2,12 @@ apply plugin: 'groovy'
 apply plugin: 'idea'
 apply plugin: 'war'
 
-def glassfishVersion = '7.0-b87'
 def jerseyVersion = '2.0'
 def websocketVersion = '1.0'
 def env = System.getenv();
 
-sourceCompatibility = '1.7'
-targetCompatibility = '1.7'
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
 
 archivesBaseName = 'nashorn_demo'
 
@@ -57,7 +56,7 @@ dependencies {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.10'
+    gradleVersion = '1.12'
 }
 
 idea {
