@@ -10,7 +10,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 import javax.script.*;
-import java.io.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.URL;
 import java.util.Random;
 
