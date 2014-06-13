@@ -33,6 +33,7 @@ Presented on:
 * http://www.eventbrite.com/e/nyjavasig-nashorn-java-and-javascript-shaken-not-stirred-tickets-10216807747[NY JavaSIG (January 2014)]
 * http://www.meetup.com/NJFlex/events/162830932/[PrincetonJUG (February 2014)]
 * http://www.meetup.com/nycjava/events/165981862/[The New York City Java Meetup Group (March 2014)] (http://next.javaheadbrain.com/slidedecks/java_javascript_shaken_not_stirred/NYJUG_2014_Nashorn_v5.pdf[slides])
+* https://qconnewyork.com/presentation/nashorn-native-javascript-support-java-8[QCon New York (June 2014)] (http://next.javaheadbrain.com/slidedecks/java_javascript_shaken_not_stirred/QConNY_2014_Nashorn_v6.pdf[slides])
 
 Content:
 

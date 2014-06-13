@@ -11,7 +11,7 @@ var Tax = (function () {
                 yourTax.value = mafiaSpecial(income);
             }
             //print("\tDear " + customerName + ", your tax is " + yourTax.value);
-            print(JSON.stringify(yourTax));
+            // print(JSON.stringify(yourTax));
             return yourTax;
         }
     };
@@ -24,5 +24,6 @@ var Tax = (function () {
 })();
 
 // The closure remembers its context with taxDeduction=500
-Tax.doTaxes(100000, "John Smith");
-Tax.doTaxes(100000, "Tony Soprano");
+var smith = Tax.doTaxes(100000, "John Smith");
+var tony = Tax.doTaxes(100000, "Tony Soprano");
+print(JSON.stringify([smith, tony]));
