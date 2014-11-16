@@ -17,7 +17,7 @@ var Tax = (function () {
     };
 
     function mafiaSpecial(income) {
-        return income * 0.05 - taxDeduction * 3;
+        return income * 0.05 - taxDeduction / 5;
     }
 
     return Tax;

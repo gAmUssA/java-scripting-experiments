@@ -1,4 +1,7 @@
-#! /usr/local/bin/jjs -scripting
+#!/usr/bin/env jjs -scripting
+
+
+
 
 var Thread = Java.type('java.lang.Thread'),
     Runnable = Java.type('java.lang.Runnable');

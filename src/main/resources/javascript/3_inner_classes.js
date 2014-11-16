@@ -1,4 +1,4 @@
-#! /usr/local/bin/jjs -scripting
+#!/usr/bin/env jjs -scripting
 
 var MapEntry1 = java.util.Map.Entry;
 var MapEntry2 = Java.type("java.util.Map$Entry");

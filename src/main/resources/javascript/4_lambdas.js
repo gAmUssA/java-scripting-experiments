@@ -48,7 +48,7 @@ var tokens = copyright.split(/\s+/);
 
 // Convert to ArrayList.
 var list = new java.util.ArrayList();
-tokens.map(function(e) list.add(e));
+tokens.map(function (e) list.add(e));
 
 // The JavaScript collection for the result.
 var result = [];
@@ -56,13 +56,13 @@ var result = [];
 // Parallelize some of the activity.
 list.parallelStream().
     // Select only words.
-    filter(function(t) t.match(/^[A-Za-z]+$/)).
+    filter(function (t) t.match(/^[A-Za-z]+$/)).
     // Make case comparable.
-    map(function(t) t.toLowerCase()).
+    map(function (t) t.toLowerCase()).
     // Fold duplicates.
-    collect(Collectors.groupingBy(function(t) t)).
+    collect(Collectors.groupingBy(function (t) t)).
     // Move results to JavaScript collection.
-    forEach(function(t) result.push(t));
+    forEach(function (t) result.push(t));
 
 // Sort the result.
 result.sort();

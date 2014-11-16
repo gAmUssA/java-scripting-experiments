@@ -1,4 +1,4 @@
-#! /usr/local/bin/jjs -scripting
+#!/usr/bin/env jjs -scripting
 
 print("${envQuery()}");
 

@@ -1,2 +1,2 @@
-Number.prototype[3] = "nyjavasig";
+Number.prototype[3] = "jugmsk";
 print(3[3]);
