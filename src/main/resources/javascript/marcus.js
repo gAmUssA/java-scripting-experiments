@@ -1,2 +1,2 @@
-Number.prototype[3] = "JavaScript rocks!!!";
+Number.prototype[3] = "jugmsk";
 print(3[3]);

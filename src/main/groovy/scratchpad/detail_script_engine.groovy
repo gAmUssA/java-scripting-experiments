@@ -12,7 +12,7 @@ ScriptEngine nashorn = manager.getEngineByName("nashorn")
 if (nashorn != null) {
     println "Nashorn is present."
     println "---------------------------------"
-    //printEngineInfo nashorn.getFactory()
+    printEngineInfo nashorn.getFactory()
 } else {
     println "Nashorn is not present."
 }
