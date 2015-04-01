@@ -1,7 +1,7 @@
 /**
  * TODO
  *
- * @author Viktor Gamov (viktor.gamov@faratasystems.com) on 9/21/13.
+ * @author Viktor Gamov
  * @since 0.0.1
  */
 // From http://javascript.crockford.com/remedial.html

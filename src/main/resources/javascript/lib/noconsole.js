@@ -21,7 +21,7 @@
         }
     }
     // java
-    if (typeof Java === "object" && String(Packages) === "[object Java]") {
+    if (typeof Java === "object" && (String(Packages) === "[object Java]") || (String(Packages) === "[JavaPackage ]" )) {
         console.log = function (arg) {
             print(arg);
         };
