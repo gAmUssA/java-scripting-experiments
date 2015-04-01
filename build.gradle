@@ -28,7 +28,11 @@ repositories {
 }
 
 dependencies {
-    compile 'org.codehaus.groovy:groovy-all:2.0.5'
+    //compile 'org.codehaus.groovy:groovy-all:2.0.5'
+    compile 'org.codehaus.groovy:groovy:2.4.3'
+    compile 'org.codehaus.groovy:groovy-jsr223:2.4.3'
+
+
 
     //providedCompile "javax:javaee-api:${glassfishVersion}"
 
@@ -48,6 +52,8 @@ dependencies {
 
     compile 'com.google.guava:guava:15.0'
     // compile 'com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.2.3'
+    compile 'com.hazelcast:hazelcast:3.4.1'
+    compile 'com.hazelcast:hazelcast-client:3.4.1'
 
     testCompile 'hsqldb:hsqldb:1.8.0.10'
     testCompile 'junit:junit:4.8.1'
